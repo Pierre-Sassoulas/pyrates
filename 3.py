@@ -1,0 +1,11 @@
+jump_height(4)
+walk()
+jump_height(3)
+for i in range(4):
+	walk()
+	walk()
+	height = read_number()
+	walk()
+	jump_height(height)
+walk()
+open_chest()
